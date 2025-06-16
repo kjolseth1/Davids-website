@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arizona State Records</title>
+  <style>
+    body { font-family: Georgia, serif; background-color: #f3e5d7; color: #1e2e3e; margin:0; padding:0;}
+    header, footer { background-color: #283d52; color: #fff; text-align: center; padding: 1rem; }
+    h1,h2,h3 { color: #283d52; }
+    .search-container { padding:1rem; text-align:center; background:#d1c0a8; }
+    .search-container input { padding:0.5rem; width:60%; max-width:500px; font-size:1rem; border:1px solid #999; border-radius:4px;}
+    .search-container button { background:#283d52; color:#fff; padding:0.5rem 1rem; border:none; border-radius:4px; cursor:pointer; margin-left:8px;}
+    .section { padding:1rem 2rem; max-width:960px; margin:0 auto; }
+    .result-item { display:block; padding:0.3rem 0; color:#1e2e3e; text-decoration:none; font-size:1rem;}
+    .result-item:hover { color:#003366; text-decoration:underline; }
+    .whistleblower, .foia { background:#f0e2cc; border:1px solid #ccc; padding:1rem 2rem; margin:2rem auto; max-width:600px; border-radius:6px; }
+    label { font-weight:bold; display:block; margin-top:1rem;}
+    input[type=text], textarea { width:100%; padding:0.5rem; font-size:1rem; margin-top:0.3rem; border:1px solid #999; border-radius:4px; box-sizing:border-box; font-family:Georgia, serif;}
+    button[type=submit] { background:#283d52; color:#fff; padding:0.6rem 1.2rem; border:none; border-radius:4px; cursor:pointer; font-size:1rem; margin-top:1rem;}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Arizona State Records</h1>
+  <p>The Most Trusted and Complete Public Records Resource in Arizona</p>
+</header>
+
+<div class="search-container">
+  <input type="text" placeholder="Search Arizona records by county, office, or type..." aria-label="Search Arizona records"/>
+  <button type="button">Search</button>
+</div>
+
+<div class="section">
+  <h2>Explore Arizona Public Records</h2>
+  <h3>Arizona Counties</h3>
+
+  <h4>Maricopa County</h4>
+  <a class="result-item" href="https://www.maricopa.gov/" target="_blank" rel="noopener">Maricopa County Official Website</a>
+  <a class="result-item" href="https://recorder.maricopa.gov/" target="_blank" rel="noopener">Maricopa County Recorder</a>
+  <a class="result-item" href="https://www.maricopa.gov/assessor" target="_blank" rel="noopener">Maricopa County Assessor</a>
+  <a class="result-item" href="https://www.superiorcourt.maricopa.gov/" target="_blank" rel="noopener">Maricopa County Superior Court</a>
+  <a class="result-item" href="https://www.mcso.org/" target="_blank" rel="noopener">Maricopa County Sheriff’s Office</a>
+  <a class="result-item" href="https://www.mcso.org/custody-bureau-information/inmate-information" target="_blank" rel="noopener">Maricopa County Jail Inmate Lookup</a>
+
+  <h4>Pima County</h4>
+  <a class="result-item" href="https://webcms.pima.gov/" target="_blank" rel="noopener">Pima County Official Website</a>
+  <a class="result-item" href="https://www.recorder.pima.gov/" target="_blank" rel="noopener">Pima County Recorder</a>
+  <a class="result-item" href="https://www.asr.pima.gov/" target="_blank" rel="noopener">Pima County Assessor</a>
+  <a class="result-item" href="https://www.sc.pima.gov/" target="_blank" rel="noopener">Pima County Superior Court</a>
+  <a class="result-item" href="https://www.pimasheriff.org/" target="_blank" rel="noopener">Pima County Sheriff’s Office</a>
+  <a class="result-item" href="https://www.pimasheriff.org/jail-info/" target="_blank" rel="noopener">Pima County Jail Inmate Lookup</a>
+
+  <h4>Cochise County</h4>
+  <a class="result-item" href="https://www.cochise.az.gov/" target="_blank" rel="noopener">Cochise County Official Website</a>
+  <a class="result-item" href="https://www.cochise.az.gov/recorder" target="_blank" rel="noopener">Cochise County Recorder</a>
+  <a class="result-item" href="https://www.cochise.az.gov/assessor" target="_blank" rel="noopener">Cochise County Assessor</a>
+  <a class="result-item" href="https://www.cochise.az.gov/superiorcourt" target="_blank" rel="noopener">Cochise County Superior Court</a>
+  <a class="result-item" href="https://cochisesheriff.org/" target="_blank" rel="noopener">Cochise County Sheriff’s Office</a>
+  <a class="result-item" href="https://cochisesheriff.org/jail/" target="_blank" rel="noopener">Cochise County Jail Inmate Lookup</a>
+
+  <!-- Coconino, Gila, Graham, Greenlee, La Paz, Mohave, Navajo remain unchanged -->
+
+  <h4>Pinal County</h4>
+  <a class="result-item" href="https://www.pinal.gov/" target="_blank" rel="noopener">Pinal County Official Website</a>
+  <a class="result-item" href="https://www.pinal.gov/810/Recorder" target="_blank" rel="noopener">Pinal County Recorder</a>
+  <a class="result-item" href="https://www.pinal.gov/Departments/Assessor" target="_blank" rel="noopener">Pinal County Assessor</a>
+  <a class="result-item" href="https://www.pinal.gov/Departments/Sheriff" target="_blank" rel="noopener">Pinal County Sheriff’s Office</a>
+
+  <!-- Santa Cruz, Yavapai, Yuma remain unchanged -->
+
+  <h3>Arizona State Agencies & Courts</h3>
+  <a class="result-item" href="https://azgovernor.gov/" target="_blank" rel="noopener">Governor of Arizona</a>
+  <a class="result-item" href="https://www.azag.gov/" target="_blank" rel="noopener">Arizona Attorney General</a>
+  <a class="result-item" href="https://www.azleg.gov/" target="_blank" rel="noopener">Arizona Legislature</a>
+  <a class="result-item" href="https://www.azcourts.gov/" target="_blank" rel="noopener">Arizona Supreme Court & Judicial Branch</a>
+  <a class="result-item" href="https://corrections.az.gov/inmate-data-search" target="_blank" rel="noopener">Arizona Department of Corrections – Inmate Search</a>
+  <a class="result-item" href="https://www.azdps.gov/" target="_blank" rel="noopener">Arizona Department of Public Safety</a>
+  <a class="result-item" href="https://www.azcc.gov/" target="_blank" rel="noopener">Arizona Corporation Commission</a>
+  <a class="result-item" href="https://www.azleg.gov/arsDetail/?title=39" target="_blank" rel="noopener">Arizona Public Records Law (FOIA)</a>
+</div>
+
+<div class="whistleblower section">
+  <h2>Submit an Anonymous Tip</h2>
+  <p>Report misconduct or hidden records confidentially via our whistleblower portal:</p>
+  <form>
+    <label for="tip">Your Tip (No name required):</label>
+    <textarea id="tip" name="tip" rows="4" placeholder="Enter your tip here..." required></textarea>
+    <button type="submit">Submit Tip</button>
+  </form>
+</div>
+
+<div class="foia section">
+  <h2>Auto-FOIA Request Builder</h2>
+  <p>Generate and send your public records request easily:</p>
+  <form>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" placeholder="Full name" required>
+    <label for="email">Your Email:</label>
+    <input type="text" id="email" name="email" placeholder="Email address" required>
+    <label for="records">Describe Records You Want:</label>
+    <textarea id="records" name="records" rows="5" placeholder="Specify which records you want" required></textarea>
+    <button type="submit">Create FOIA Letter</button>
+  </form>
+</div>
+
+<footer>
+  &copy; 2025 Arizona State Records. All rights reserved.
+</footer>
+</body>
+</html>
+
+
+
